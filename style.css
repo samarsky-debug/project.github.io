@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+nav .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    color: #009cfd;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+#introduction p {
+    line-height: 1.8;
+}
+
+#introduction strong {
+    font-weight: bold;
+}
+
+#main-content p {
+    font-size: 1.1em;
+}
+
+#main-content big {
+    font-size: 1.3em;
+}
+
+#main-content img {
+    max-width: 100%; 
+    height: auto;
+    display: block;  
+    margin: 20px auto; 
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer hr {
+    border-color: #555;
+}
+
+footer address {
+    font-style: normal;
+    margin-bottom: 0.5em;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+b {
+    font-weight: bold; 
+}
+
+
+@media (max-width: 768px) {
+    nav .container {
+        padding: 0 10px;
+    }
+
+    nav ul.menu li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    nav ul.menu {
+        text-align: left;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
